@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="content_type_mappings" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Content Type Mappings</name>
+	<description>Configure additional page MIME types</description>
+	<repo type="github">https://github.com/symphonycms/content_type_mappings</repo>
+	<url type="discuss">http://symphony-cms.com/discuss/thread/32779/</url>
+	<types>
+		<type>Workflow</type>
+	</types>
+	<authors>
+		<author>
+			<name github="symphonycms" symphony="team">Symphony Community</name>
+			<website>http://getsymphony.com</website>
+		</author>
+		<author>
+			<name github="Solutions-Nitriques" symphony="Nitriques">Solutions Nitriques</name>
+			<website>http://www.nitriques.com/open-source/</website>
+		</author>
+		<author>
+			<name github="pointybeard" symphony="alistair">Alistair Kearney</name>
+			<website>http://alistairkearney.com/</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="1.6.1" date="2014-06-17" min="2.4">
+			- Code clean-up
+		</release>
+		<release version="1.6.0" date="2014-03-18" min="2.4">
+			- Symphony 2.4 compatibility
+		</release>
+		<release version="1.5.0" date="2012-07-16" min="2.3">
+			- Symphony 2.3 compatibility
+		</release>
+		<release version="1.4.0" date="2011-11-18" min="2.1.0" max="2.2.5">
+			- Added the preferences UI section;
+			- Updated the compatibility array, since this extensions works with 2.1.0 to 2.2.5
+		</release>
+	</releases>
+</extension>

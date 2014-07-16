@@ -1,6 +1,4 @@
-.htaccess
-workspace/
-manifest/
 node_modules/
 install-log.txt
 install/logs/
+workspace/uploads/images/**/*.*

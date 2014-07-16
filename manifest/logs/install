@@ -1,0 +1,33 @@
+============================================
+Log Created: 2014-07-15T19:39:45+02:00
+============================================
+Symphony Log
+Opened:  2014-07-15T19:39:45+02:00
+Version: 2.4.1beta1
+Domain:  symphony.dev
+--------------------------------------------
+
+============================================
+INSTALLATION PROCESS STARTED (2014-07-15T19:41:14+02:00)
+============================================
+07/15/2014 7:41 pm > Notice: MYSQL: Establishing Connection
+07/15/2014 7:41 pm > Notice: MYSQL: Importing Table Schema
+07/15/2014 7:41 pm > Notice: MYSQL: Creating Default Author
+07/15/2014 7:41 pm > Notice: WRITING: Creating ‘manifest’ folder (/manifest)
+07/15/2014 7:41 pm > Notice: WRITING: Creating ‘logs’ folder (/manifest/logs)
+07/15/2014 7:41 pm > Notice: WRITING: Creating ‘cache’ folder (/manifest/cache)
+07/15/2014 7:41 pm > Notice: WRITING: Creating ‘tmp’ folder (/manifest/tmp)
+07/15/2014 7:41 pm > Notice: WRITING: Configuration File
+07/15/2014 7:41 pm > Notice: CONFIGURING: Frontend
+07/15/2014 7:41 pm > Notice: WRITING: Creating ‘workspace’ folder (/workspace)
+07/15/2014 7:41 pm > Notice: WRITING: Creating ‘data-sources’ folder (/workspace/data-sources)
+07/15/2014 7:41 pm > Notice: WRITING: Creating ‘events’ folder (/workspace/events)
+07/15/2014 7:41 pm > Notice: WRITING: Creating ‘pages’ folder (/workspace/pages)
+07/15/2014 7:41 pm > Notice: WRITING: Creating ‘utilities’ folder (/workspace/utilities)
+07/15/2014 7:41 pm > Notice: CONFIGURING: Installing existing extensions
+============================================
+INSTALLATION COMPLETED: Execution Time - 1 sec (15.07.14 19:41:15)
+============================================
+
+
+

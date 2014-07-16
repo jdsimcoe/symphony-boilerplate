@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="association_output" status="development" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Association Output</name>
+	<description>Inline XML</description>
+	<repo type="github">https://github.com/hananils/association_output</repo>
+	<types>
+		<type>Associations</type>
+	</types>
+	<authors>
+		<author>
+			<name github="hananils" symphony="hananils">Büro für Web- und Textgestaltung</name>
+			<website>http://hananils.de</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="1.0.0beta" date="2014-07-02" min="2.5">
+			- Prepare first release
+		</release>
+		<release version="0.5.0" date="2014-07-02" min="2.5">
+			- Fixed field selector (now only shows selected associated sections)
+			- General clean-up
+		</release>
+		<release version="0.4.1" date="2014-07-01" min="2.4">
+			- Fixed variable references
+		</release>
+		<release version="0.4.0" date="2014-07-01" min="2.4">
+			- Added parameter pool clean-up (removing dynamic output parameters not set in the Data Source)
+			- General clean-up
+		</release>
+		<release version="0.3.0" date="2014-06-30" min="2.4">
+			- Added interface to Data Source editor
+		</release>
+		<release version="0.2.0" date="2014-06-25" min="2.4">
+			- Added inline XML inclusion
+		</release>
+		<release version="0.1.0" date="2014-06-04" min="2.4">
+			- Initial release.
+		</release>
+	</releases>
+</extension>

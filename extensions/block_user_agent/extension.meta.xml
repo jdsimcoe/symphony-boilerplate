@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="block_user_agent" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Block user agent</name>
+	<description>
+		XSL template and Regular Expression combined to help fight old browsers.
+	</description>
+	<repo type="github">https://github.com/DeuxHuitHuit/block_user_agent</repo>
+	<url type="discuss">https://github.com/DeuxHuitHuit/block_user_agent/issues</url>
+	<types>
+		<type>User agent</type>
+		<type>Template</type>
+	</types>
+	<authors>
+		<author>
+			<name github="DeuxHuitHuit" symphony="nitriques" twitter="DeuxHuitHuit">Deux Huit Huit</name>
+			<website>http://deuxhuithuit.com/</website>
+		</author>
+	</authors>
+	<dependencies>
+		<!-- None -->
+	</dependencies>
+	<releases>
+		<release version="1.3" date="2014-04-28" min="2.4">
+			- Make sure assets are not downloaded for nothing
+		</release>
+		<release version="1.2" date="2014-04-16" min="2.4">
+			- Compatibility for Symphony 2.4
+		</release>
+		<release version="1.1" date="2014-03-21" min="2.2" max="2.3.x">
+			- Added the `client-side-detection` parameter in the xsl template. This allows client-
+			side detection.
+			- Scoped the css
+		</release>
+		<release version="1.0" date="2012-08-29" min="2.2" max="2.3.x">
+			- First release
+		</release>
+	</releases>
+</extension>

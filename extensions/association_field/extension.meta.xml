@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="association_field" status="development" xmlns="http://getsymphony.com/schemas/extension/1.0">
+	<name>Association Field</name>
+	<description>Linking entries between two sections</description>
+	<repo type="github">https://github.com/symphonists/association_field</repo>
+	<types>
+		<type>Field Types</type>
+	</types>
+	<authors>
+		<author>
+			<name github="symphonycms" symphony="team">Symphony Team</name>
+			<website>http://getsymphony.com</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="0.5.3" date="2014-07-03" min="2.4">
+			- Fixed option encoding for field instances with interface
+		</release>
+		<release version="0.5.2" date="2014-06-24" min="2.4">
+			- Updated field settings layout
+		</release>
+		<release version="0.5.1" date="2014-06-16" min="2.4">
+			- Fixed option discovery
+		</release>
+		<release version="0.5.0" date="2014-06-16" min="2.4">
+			- Added persistent sort orders to XML output
+		</release>
+		<release version="0.4.0" date="2014-06-13" min="2.4">
+			- Added persistent sort orders to UI
+		</release>
+		<release version="0.3.0" date="2014-06-12" min="2.4">
+			- Added data type to markup
+		</release>
+		<release version="0.2.0" date="2014-06-12" min="2.4">
+			- Added entry limit to markup
+		</release>
+		<release version="0.1.0" date="2014-06-05" min="2.4">
+			- Added association interfaces
+			- Initial release (forked Select Box Link)
+		</release>
+	</releases>
+</extension>
