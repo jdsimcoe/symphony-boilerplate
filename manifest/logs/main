@@ -44,3 +44,53 @@ Domain:  symphony.dev
 07/16/2014 11:29 am > Fatal Error: GenericExceptionHandler 1: Call to a member function get() on a non-object on line 451 of file /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/toolkit/data-sources/class.datasource.section.php
 07/16/2014 11:30 am > Fatal Error: GenericExceptionHandler 1: Call to a member function get() on a non-object on line 451 of file /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/toolkit/data-sources/class.datasource.section.php
 07/16/2014 11:30 am > Fatal Error: GenericExceptionHandler 1: Call to a member function get() on a non-object on line 451 of file /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/toolkit/data-sources/class.datasource.section.php
+07/16/2014 11:33 am > Fatal Error: GenericExceptionHandler 1: Call to a member function get() on a non-object on line 451 of file /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/toolkit/data-sources/class.datasource.section.php
+07/16/2014 11:34 am > Fatal Error: GenericExceptionHandler 1: Call to a member function get() on a non-object on line 451 of file /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/toolkit/data-sources/class.datasource.section.php
+07/16/2014 11:34 am > Fatal Error: GenericExceptionHandler 1: Call to a member function get() on a non-object on line 451 of file /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/toolkit/data-sources/class.datasource.section.php
+07/16/2014 11:35 am > Fatal Error: GenericExceptionHandler 1: Call to a member function get() on a non-object on line 451 of file /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/toolkit/data-sources/class.datasource.section.php
+07/16/2014 11:35 am > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/16/2014 11:35 am > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/16/2014 11:35 am > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/16/2014 11:35 am > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/16/2014 11:36 am > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/16/2014 11:36 am > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/16/2014 11:37 am > Fatal Error: GenericExceptionHandler 1: Call to a member function get() on a non-object on line 451 of file /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/toolkit/data-sources/class.datasource.section.php
+07/16/2014 11:37 am > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/16/2014 11:37 am > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/16/2014 11:37 am > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/16/2014 11:37 am > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/16/2014 11:37 am > UNKNOWN: SymphonyErrorPage 0 - Line: 177 - XSLTProcessor::transformToXml(): runtime error: file /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/head.xsl line 15 element value-of
+Line: 177 - XSLTProcessor::transformToXml(): Variable 'website-title' has not been declared.
+Line: 177 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 177 - XSLTProcessor::transformToXml(): runtime error: file /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/head.xsl line 15 element value-of
+Line: 177 - XSLTProcessor::transformToXml(): XPath evaluation returned no result. on line 702 of /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/core/class.symphony.php
+07/16/2014 11:38 am > UNKNOWN: SymphonyErrorPage 0 - Line: 177 - XSLTProcessor::transformToXml(): runtime error: file /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/head.xsl line 15 element value-of
+Line: 177 - XSLTProcessor::transformToXml(): Variable 'website-title' has not been declared.
+Line: 177 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 177 - XSLTProcessor::transformToXml(): runtime error: file /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/head.xsl line 15 element value-of
+Line: 177 - XSLTProcessor::transformToXml(): XPath evaluation returned no result. on line 702 of /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/core/class.symphony.php
+07/16/2014 11:40 am > UNKNOWN: SymphonyErrorPage 0 - Line: 177 - XSLTProcessor::transformToXml(): runtime error: file /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/head.xsl line 15 element value-of
+Line: 177 - XSLTProcessor::transformToXml(): Variable 'website-title' has not been declared.
+Line: 177 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 177 - XSLTProcessor::transformToXml(): runtime error: file /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/head.xsl line 15 element value-of
+Line: 177 - XSLTProcessor::transformToXml(): XPath evaluation returned no result. on line 702 of /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/core/class.symphony.php
+07/16/2014 11:40 am > UNKNOWN: SymphonyErrorPage 0 - Line: 177 - XSLTProcessor::transformToXml(): runtime error: file /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/footer.xsl line 13 element a
+Line: 177 - XSLTProcessor::transformToXml(): Variable 'main-facebook' has not been declared.
+Line: 177 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 177 - XSLTProcessor::transformToXml(): runtime error: file /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/footer.xsl line 13 element a
+Line: 177 - XSLTProcessor::transformToXml(): Internal error: Failed to evaluate the AVT of attribute 'href'.
+Line: 177 - XSLTProcessor::transformToXml(): runtime error: file /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/footer.xsl line 14 element a
+Line: 177 - XSLTProcessor::transformToXml(): Variable 'main-instagram' has not been declared.
+Line: 177 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 177 - XSLTProcessor::transformToXml(): runtime error: file /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/footer.xsl line 14 element a
+Line: 177 - XSLTProcessor::transformToXml(): Internal error: Failed to evaluate the AVT of attribute 'href'.
+Line: 177 - XSLTProcessor::transformToXml(): runtime error: file /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/footer.xsl line 15 element a
+Line: 177 - XSLTProcessor::transformToXml(): Variable 'main-twitter' has not been declared.
+Line: 177 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 177 - XSLTProcessor::transformToXml(): runtime error: file /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/footer.xsl line 15 element a
+Line: 177 - XSLTProcessor::transformToXml(): Internal error: Failed to evaluate the AVT of attribute 'href'.
+Line: 177 - XSLTProcessor::transformToXml(): runtime error: file /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/footer.xsl line 16 element a
+Line: 177 - XSLTProcessor::transformToXml(): Variable 'main-newsletter' has not been declared.
+Line: 177 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 177 - XSLTProcessor::transformToXml(): runtime error: file /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/footer.xsl line 16 element a
+Line: 177 - XSLTProcessor::transformToXml(): Internal error: Failed to evaluate the AVT of attribute 'href'. on line 702 of /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/core/class.symphony.php

@@ -2,3 +2,4 @@ node_modules/
 install-log.txt
 install/logs/
 workspace/uploads/images/**/*.*
+manifest/cache/

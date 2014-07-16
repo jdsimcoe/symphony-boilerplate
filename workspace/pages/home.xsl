@@ -4,7 +4,7 @@
 
 <xsl:include href="../utilities/master.xsl"/>
 
-<!--
+
 <xsl:template match="data">
   <xsl:choose>
     <xsl:when test="count(structure-url/entry)">
@@ -28,6 +28,6 @@
     </xsl:otherwise>
   </xsl:choose>
 </xsl:template>
- -->
+
 
 </xsl:stylesheet>

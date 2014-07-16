@@ -25,18 +25,6 @@ class datasourcestructure_navigation extends SectionDatasource
         'slug',
         'parent'
     );
-    
-    public $dsParamINCLUDEDASSOCIATIONS = array(
-        'parent' => array(
-            'section_id' => '2',
-            'field_id' => '4',
-            'elements' => array(
-                'path',
-                'title',
-                'slug'
-            )
-        )
-    );
 
     public function __construct($env = null, $process_params = true)
     {
@@ -53,7 +41,7 @@ class datasourcestructure_navigation extends SectionDatasource
                 'website' => 'http://symphony.dev',
                 'email' => 'jdsimcoe@gmail.com'),
             'version' => 'Symphony 2.5.0beta1',
-            'release-date' => '2014-07-16T18:24:40+00:00'
+            'release-date' => '2014-07-16T18:39:10+00:00'
         );
     }
 
