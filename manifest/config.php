@@ -157,11 +157,4 @@
 			'data_sources_index_order' => 'asc',
 		),
 		########
-
-
-		###### GLOBALRESOURCELOADER ######
-		'globalresourceloader' => array(
-			'ds-names' => 'globals,structure_all,structure_navigation,structure_url',
-		),
-		########
 	);

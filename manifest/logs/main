@@ -94,3 +94,300 @@ Line: 177 - XSLTProcessor::transformToXml(): Variable 'main-newsletter' has not 
 Line: 177 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
 Line: 177 - XSLTProcessor::transformToXml(): runtime error: file /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/footer.xsl line 16 element a
 Line: 177 - XSLTProcessor::transformToXml(): Internal error: Failed to evaluate the AVT of attribute 'href'. on line 702 of /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/core/class.symphony.php
+07/16/2014 3:06 pm > Fatal Error: GenericExceptionHandler 1: Call to undefined method Administration::saveConfig() on line 198 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/configuration/content/content.settings.php
+07/16/2014 9:27 pm > UNKNOWN: SymphonyErrorPage 0 - Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:12: parser error : Opening and ending tag mismatch: img line 11 and a
+Line: 163 - XSLTProcessor::importStylesheet():       </a>
+Line: 163 - XSLTProcessor::importStylesheet():           ^
+Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:45: parser error : Opening and ending tag mismatch: img line 44 and button
+Line: 163 - XSLTProcessor::importStylesheet():             </button>
+Line: 163 - XSLTProcessor::importStylesheet():                      ^
+Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:46: parser error : Opening and ending tag mismatch: button line 43 and div
+Line: 163 - XSLTProcessor::importStylesheet():           </div>
+Line: 163 - XSLTProcessor::importStylesheet():                 ^
+Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:51: parser error : Opening and ending tag mismatch: a line 10 and header
+Line: 163 - XSLTProcessor::importStylesheet():   </header>
+Line: 163 - XSLTProcessor::importStylesheet():            ^
+Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:81: parser error : Opening and ending tag mismatch: div line 9 and xsl:template
+Line: 163 - XSLTProcessor::importStylesheet(): </xsl:template>
+Line: 163 - XSLTProcessor::importStylesheet():                ^
+Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:146: parser error : Opening and ending tag mismatch: header line 8 and xsl:stylesheet
+Line: 163 - XSLTProcessor::importStylesheet(): </xsl:stylesheet>
+Line: 163 - XSLTProcessor::importStylesheet():                  ^
+Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:146: parser error : Premature end of data in tag template line 6
+Line: 163 - XSLTProcessor::importStylesheet(): </xsl:stylesheet>
+Line: 163 - XSLTProcessor::importStylesheet():                  ^
+Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:146: parser error : Premature end of data in tag stylesheet line 2
+Line: 163 - XSLTProcessor::importStylesheet(): </xsl:stylesheet>
+Line: 163 - XSLTProcessor::importStylesheet():                  ^
+Line: 163 - XSLTProcessor::importStylesheet(): compilation error: file /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/master.xsl line 8 element import
+Line: 163 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl
+Line: 177 - XSLTProcessor::transformToXml(): No stylesheet associated to this object on line 702 of /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/core/class.symphony.php
+07/16/2014 9:27 pm > UNKNOWN: SymphonyErrorPage 0 - Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:12: parser error : Opening and ending tag mismatch: img line 11 and a
+Line: 163 - XSLTProcessor::importStylesheet():       </a>
+Line: 163 - XSLTProcessor::importStylesheet():           ^
+Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:45: parser error : Opening and ending tag mismatch: img line 44 and button
+Line: 163 - XSLTProcessor::importStylesheet():             </button>
+Line: 163 - XSLTProcessor::importStylesheet():                      ^
+Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:46: parser error : Opening and ending tag mismatch: button line 43 and div
+Line: 163 - XSLTProcessor::importStylesheet():           </div>
+Line: 163 - XSLTProcessor::importStylesheet():                 ^
+Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:51: parser error : Opening and ending tag mismatch: a line 10 and header
+Line: 163 - XSLTProcessor::importStylesheet():   </header>
+Line: 163 - XSLTProcessor::importStylesheet():            ^
+Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:81: parser error : Opening and ending tag mismatch: div line 9 and xsl:template
+Line: 163 - XSLTProcessor::importStylesheet(): </xsl:template>
+Line: 163 - XSLTProcessor::importStylesheet():                ^
+Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:146: parser error : Opening and ending tag mismatch: header line 8 and xsl:stylesheet
+Line: 163 - XSLTProcessor::importStylesheet(): </xsl:stylesheet>
+Line: 163 - XSLTProcessor::importStylesheet():                  ^
+Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:146: parser error : Premature end of data in tag template line 6
+Line: 163 - XSLTProcessor::importStylesheet(): </xsl:stylesheet>
+Line: 163 - XSLTProcessor::importStylesheet():                  ^
+Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:146: parser error : Premature end of data in tag stylesheet line 2
+Line: 163 - XSLTProcessor::importStylesheet(): </xsl:stylesheet>
+Line: 163 - XSLTProcessor::importStylesheet():                  ^
+Line: 163 - XSLTProcessor::importStylesheet(): compilation error: file /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/master.xsl line 8 element import
+Line: 163 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl
+Line: 177 - XSLTProcessor::transformToXml(): No stylesheet associated to this object on line 702 of /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/core/class.symphony.php
+07/16/2014 9:40 pm > UNKNOWN: SymphonyErrorPage 0 - Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:46: parser error : Opening and ending tag mismatch: img line 45 and button
+Line: 163 - XSLTProcessor::importStylesheet():             </button>
+Line: 163 - XSLTProcessor::importStylesheet():                      ^
+Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:47: parser error : Opening and ending tag mismatch: button line 44 and div
+Line: 163 - XSLTProcessor::importStylesheet():           </div>
+Line: 163 - XSLTProcessor::importStylesheet():                 ^
+Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:52: parser error : Opening and ending tag mismatch: div line 9 and header
+Line: 163 - XSLTProcessor::importStylesheet():   </header>
+Line: 163 - XSLTProcessor::importStylesheet():            ^
+Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:82: parser error : Opening and ending tag mismatch: header line 8 and xsl:template
+Line: 163 - XSLTProcessor::importStylesheet(): </xsl:template>
+Line: 163 - XSLTProcessor::importStylesheet():                ^
+Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:149: parser error : Opening and ending tag mismatch: template line 6 and stylesheet
+Line: 163 - XSLTProcessor::importStylesheet(): </xsl:stylesheet>
+Line: 163 - XSLTProcessor::importStylesheet():                  ^
+Line: 163 - XSLTProcessor::importStylesheet(): /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl:149: parser error : Premature end of data in tag stylesheet line 2
+Line: 163 - XSLTProcessor::importStylesheet(): </xsl:stylesheet>
+Line: 163 - XSLTProcessor::importStylesheet():                  ^
+Line: 163 - XSLTProcessor::importStylesheet(): compilation error: file /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/master.xsl line 8 element import
+Line: 163 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /Users/jdsimcoe/Sites/symphony-boilerplate/workspace/utilities/navigation.xsl
+Line: 177 - XSLTProcessor::transformToXml(): No stylesheet associated to this object on line 702 of /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/core/class.symphony.php
+07/17/2014 10:37 am > Fatal Error: Javascript - Uncaught TypeError: Cannot read property 'length' of undefined in file http://symphony.dev/symphony/assets/js/symphony.min.js on line 14
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:11 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:13 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:22 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 11:22 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 11:22 am > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 11:50 am > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 11:50 am > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 11:50 am > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 11:50 am > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 11:50 am > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 11:50 am > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 11:51 am > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 11:51 am > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 11:51 am > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 11:51 am > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 11:51 am > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 11:51 am > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 11:51 am > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 11:51 am > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 11:52 am > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 11:52 am > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 11:52 am > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 11:52 am > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 11:52 am > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 11:52 am > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 12:26 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 12:26 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 12:27 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 12:27 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 12:27 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 12:27 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 12:27 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 12:27 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 12:28 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 12:28 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 12:28 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 12:28 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 12:31 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 12:31 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 12:31 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 12:31 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 12:41 pm > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 12:41 pm > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 12:41 pm > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 12:41 pm > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 12:41 pm > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 12:41 pm > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 12:41 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 12:41 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 12:41 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 12:41 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:29 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:29 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:29 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:29 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:29 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:29 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:30 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:30 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:30 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:30 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:30 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:30 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:30 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:30 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:31 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:31 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:31 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:31 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:31 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:31 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:31 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:31 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:31 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:31 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:31 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:31 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:31 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:31 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:32 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:32 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:32 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:32 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:32 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:32 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:32 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:32 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:33 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:33 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:33 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:33 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:33 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:33 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:33 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:33 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:34 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:34 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:34 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:34 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:34 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:34 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:34 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:34 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:34 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:34 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:34 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:34 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:36 pm > Fatal Error: GenericExceptionHandler 1: Call to a member function get() on a non-object on line 451 of file /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/toolkit/data-sources/class.datasource.section.php
+07/17/2014 1:36 pm > Fatal Error: GenericExceptionHandler 1: Call to a member function get() on a non-object on line 451 of file /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/toolkit/data-sources/class.datasource.section.php
+07/17/2014 1:36 pm > Fatal Error: GenericExceptionHandler 1: Call to a member function get() on a non-object on line 451 of file /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/toolkit/data-sources/class.datasource.section.php
+07/17/2014 1:36 pm > Fatal Error: GenericExceptionHandler 1: Call to a member function get() on a non-object on line 451 of file /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/toolkit/data-sources/class.datasource.section.php
+07/17/2014 1:36 pm > Fatal Error: GenericExceptionHandler 1: Call to a member function get() on a non-object on line 451 of file /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/toolkit/data-sources/class.datasource.section.php
+07/17/2014 1:36 pm > Fatal Error: GenericExceptionHandler 1: Call to a member function get() on a non-object on line 451 of file /Users/jdsimcoe/Sites/symphony-boilerplate/symphony/lib/toolkit/data-sources/class.datasource.section.php
+07/17/2014 1:37 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:37 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:37 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:37 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:37 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:37 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:37 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:37 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:37 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:37 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:41 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:41 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:41 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:41 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:49 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:49 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:49 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:49 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:50 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:50 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:50 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:50 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:51 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:51 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:51 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:51 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 1:58 pm > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 125
+07/17/2014 1:58 pm > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 138
+07/17/2014 1:58 pm > Fatal Error: Javascript - Uncaught ReferenceError: selectize is not defined in file http://symphony.dev/extensions/association_ui_selector/assets/aui.selector.publish.js on line 133
+07/17/2014 4:47 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 4:47 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 4:47 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 4:47 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 4:48 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 4:48 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 4:48 pm > Warning: GenericErrorHandler 2: array_unique() expects parameter 1 to be array, null given on line 299 of file /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php
+07/17/2014 4:48 pm > UNKNOWN: ErrorException 0 - array_unique() expects parameter 1 to be array, null given on line 299 of /Users/jdsimcoe/Sites/symphony-boilerplate/extensions/association_output/extension.driver.php

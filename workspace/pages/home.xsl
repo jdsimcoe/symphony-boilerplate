@@ -20,11 +20,11 @@
 <xsl:template match="structure-url/entry" mode="main">
   <xsl:choose>
     <xsl:when test="slug/@handle = 'contact'">
-      <xsl:value-of select="content" disable-output-escaping="yes" />
+      <xsl:apply-templates select="matrix/item" />
       <xsl:call-template name="contact-form" />
     </xsl:when>
     <xsl:otherwise>
-      <xsl:value-of select="content" disable-output-escaping="yes" />
+      <xsl:apply-templates select="matrix/item" />
     </xsl:otherwise>
   </xsl:choose>
 </xsl:template>

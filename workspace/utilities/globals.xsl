@@ -24,17 +24,37 @@
 
 
 <xsl:template match="structure-url/entry" mode="tagline">
-  <blockquote>
+  <div class="masthead">
     <xsl:choose>
       <xsl:when test="title/@handle = 'home'">
-        <h1><xsl:value-of select="normalize-space(/data/globals/entry[title/@handle='home-greeting']/content)" disable-output-escaping="yes" /></h1>
+        <h1 class="masthead-heading">
+          <xsl:value-of select="normalize-space(/data/globals/entry[title/@handle='masthead-heading-home']/content)" disable-output-escaping="yes" />
+        </h1>
+        <div class="masthead-content">
+          <xsl:value-of select="normalize-space(/data/globals/entry[title/@handle='masthead-heading-content']/content)" disable-output-escaping="yes" />
+        </div>
       </xsl:when>
       <xsl:otherwise>
-        <h1><xsl:value-of select="title"/></h1>
+        <h1 class="masthead-heading">
+          <xsl:value-of select="title"/>
+        </h1>
+        <div class="masthead-content">
+          <xsl:value-of select="tagline-masthead" disable-output-escaping="yes"/>
+        </div>
       </xsl:otherwise>
     </xsl:choose>
-    <xsl:value-of select="tagline-masthead" disable-output-escaping="yes"/>
-  </blockquote>
+  </div>
+</xsl:template>
+
+
+<xsl:template match="matrix/item">
+  <xsl:variable name="matrix-id" select="@id" />
+  <!-- Outputting Matrix data -->
+  <xsl:for-each select="/data/matrix-filtered/entry[@id = $matrix-id]">
+    <xsl:if test="string-length(text)">
+      <xsl:value-of select="text" disable-output-escaping="yes" />
+    </xsl:if>
+  </xsl:for-each>
 </xsl:template>
 
 

@@ -6,19 +6,30 @@
 
   <head>
     <title>
-      <xsl:if test="/data/structure-url/entry != ''">
+      <xsl:if test="/data/structure-url/entry != '' and $pt1 != ''">
         <xsl:value-of select="/data/structure-url/entry/title" />
         <xsl:text> · </xsl:text>
       </xsl:if>
       <xsl:value-of select="$website-name"/>
       <xsl:text> · </xsl:text>
-      <xsl:value-of select="$website-title" />
+      <xsl:value-of select="normalize-space(/data/globals/entry[title/@handle='website-title']/content)" disable-output-escaping="yes" />
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="$meta-description" />
-    <meta name="keywords" content="$meta-keywords" />
-    <meta name="author" content="$meta-author" />
-    <meta name="responsimage" data-server="{$root}/image/2/width/height/anchor/0/uploads/images/filename" data-static="{$workspace}/assets/img/spacer.gif" data-loading="{$workspace}/assets/img/loading.gif" />
+    <meta name="author">
+      <xsl:attribute name="content">
+        <xsl:value-of select="normalize-space(/data/globals/entry[title/@handle='meta-author']/content)" disable-output-escaping="yes" />
+      </xsl:attribute>
+    </meta>
+    <meta name="keywords">
+      <xsl:attribute name="content">
+        <xsl:value-of select="normalize-space(/data/globals/entry[title/@handle='meta-keywords']/content)" disable-output-escaping="yes" />
+      </xsl:attribute>
+    </meta>
+    <meta name="description">
+      <xsl:attribute name="content">
+        <xsl:value-of select="normalize-space(/data/globals/entry[title/@handle='meta-description']/content)" disable-output-escaping="yes" />
+      </xsl:attribute>
+    </meta>
 
     <link rel="dns-prefetch" href="{$root}" />
     <link rel="dns-prefetch" href="//www.google-analytics.com"/>

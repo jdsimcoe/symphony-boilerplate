@@ -2,75 +2,55 @@
 
 require_once TOOLKIT . '/class.datasource.php';
 
-class datasourcestructure_url extends SectionDatasource
+class datasourcematrix_filtered extends SectionDatasource
 {
-    public $dsParamROOTELEMENT = 'structure-url';
+    public $dsParamROOTELEMENT = 'matrix-filtered';
     public $dsParamORDER = 'asc';
-    public $dsParamPAGINATERESULTS = 'yes';
-    public $dsParamLIMIT = '1';
+    public $dsParamPAGINATERESULTS = 'no';
+    public $dsParamLIMIT = '20';
     public $dsParamSTARTPAGE = '1';
     public $dsParamREDIRECTONEMPTY = 'no';
-    public $dsParamPARAMOUTPUT = array(
-        'system:id',
-        'slug',
-        'matrix'
-        );
-    public $dsParamSORT = 'order';
+    public $dsParamSORT = 'system:id';
     public $dsParamHTMLENCODE = 'yes';
     public $dsParamASSOCIATEDENTRYCOUNTS = 'no';
     public $dsParamCACHE = '0';
 
     public $dsParamFILTERS = array(
-        '4' => '{$current-path:home}',
-        '10' => 'yes',
+        'system:id' => '{$ds-structure-url.matrix}',
     );
 
     public $dsParamINCLUDEDELEMENTS = array(
-        'path',
         'title',
-        'slug',
-        'parent',
-        'matrix'
-    );
-    
-    public $dsParamINCLUDEDASSOCIATIONS = array(
-        'matrix' => array(
-            'section_id' => '4',
-            'field_id' => '14',
-            'elements' => array(
-                'title',
-                'text',
-                'image',
-                'quote',
-                'quote-cite',
-                'aside',
-                'marketing'
-            )
-        )
+        'text: formatted',
+        'image',
+        'quote: formatted',
+        'quote-cite',
+        'aside: formatted',
+        'marketing: formatted'
     );
 
     public function __construct($env = null, $process_params = true)
     {
         parent::__construct($env, $process_params);
-        $this->_dependencies = array();
+        $this->_dependencies = array('$ds-structure-url.matrix');
     }
 
     public function about()
     {
         return array(
-            'name' => 'Structure: URL',
+            'name' => 'Matrix: Filtered',
             'author' => array(
                 'name' => 'Jonathan Simcoe',
                 'website' => 'http://symphony.dev',
                 'email' => 'jonathan@simko.io'),
             'version' => 'Symphony 2.5.0beta1',
-            'release-date' => '2014-07-17T23:31:51+00:00'
+            'release-date' => '2014-07-17T20:55:22+00:00'
         );
     }
 
     public function getSource()
     {
-        return '2';
+        return '4';
     }
 
     public function allowEditorToParse()
